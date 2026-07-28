@@ -1,11 +1,9 @@
-````markdown
-# 🌸 Ferns & Petals Sales Analysis Dashboard
+🌸 Ferns & Petals Sales Analysis Dashboard
 
 An interactive **Sales Analysis Dashboard** built in **Microsoft Excel** to analyze sales performance, customer purchasing behavior, and revenue trends for **Ferns & Petals (FNP)**. This dashboard transforms raw sales data into meaningful business insights through interactive visualizations, KPI cards, Pivot Tables, Pivot Charts, and Slicers. It enables decision-makers to monitor key performance indicators, identify top-performing products, analyze customer trends, and make data-driven business decisions. :contentReference[oaicite:0]{index=0}
 
----
 
-## 📌 Project Overview
+📌 Project Overview
 
 The objective of this project is to perform end-to-end sales analysis using Microsoft Excel and build an interactive dashboard that helps businesses understand:
 
@@ -22,13 +20,13 @@ The dashboard is fully interactive and allows users to filter reports using **Mo
 
 ---
 
-# 📸 Dashboard Preview
+📸 Dashboard Preview
 
 ![Sales Dashboard](Final%20Dashboard%20SS.png)
 
 ---
 
-# 📊 Dashboard KPIs
+📊 Dashboard KPIs
 
 | KPI | Value |
 |------|------:|
@@ -39,15 +37,15 @@ The dashboard is fully interactive and allows users to filter reports using **Mo
 
 ---
 
-# 📈 Dashboard Features
+📈 Dashboard Features
 
-### 📦 Product Revenue Analysis
+📦 Product Revenue Analysis
 - Displays the Top 5 products based on generated revenue.
 - Helps identify best-selling products.
 
 ---
 
-### 🛍 Category-wise Revenue
+🛍 Category-wise Revenue
 - Revenue comparison across product categories.
 - Categories include:
   - Cake
@@ -60,17 +58,17 @@ The dashboard is fully interactive and allows users to filter reports using **Mo
 
 ---
 
-### 🌆 Top Cities Analysis
+🌆 Top Cities Analysis
 Shows the Top 10 cities with the highest number of customer orders.
 
 ---
 
-### 📅 Revenue by Month
+📅 Revenue by Month
 Monthly revenue trend analysis for identifying sales growth.
 
 ---
 
-### 🎉 Revenue by Occasion
+🎉 Revenue by Occasion
 Compare revenue generated during different occasions such as:
 
 - Valentine's Day
@@ -81,7 +79,7 @@ Compare revenue generated during different occasions such as:
 
 ---
 
-### ⏰ Revenue by Hours
+⏰ Revenue by Hours
 Analyzes customer purchasing patterns based on order time.
 
 Useful for:
@@ -91,7 +89,7 @@ Useful for:
 
 ---
 
-### 🎛 Interactive Filters
+🎛 Interactive Filters
 
 The dashboard contains interactive filters including:
 
@@ -103,7 +101,7 @@ These allow users to dynamically explore the data.
 
 ---
 
-# 📊 Business Questions Answered
+📊 Business Questions Answered
 
 - Which products generate the highest revenue?
 - Which category performs the best?
@@ -116,7 +114,7 @@ These allow users to dynamically explore the data.
 
 ---
 
-# 📈 Key Insights
+📈 Key Insights
 
 ✔ Highest revenue generating products
 
@@ -136,7 +134,7 @@ These allow users to dynamically explore the data.
 
 ---
 
-# 🛠 Tools & Technologies
+🛠 Tools & Technologies
 
 - Microsoft Excel
 - Pivot Tables
@@ -151,7 +149,7 @@ These allow users to dynamically explore the data.
 
 ---
 
-# 📂 Dataset
+📂 Dataset
 
 The dataset contains sales information including:
 
@@ -167,7 +165,7 @@ The dataset contains sales information including:
 
 ---
 
-# 📂 Repository Structure
+📂 Repository Structure
 
 ```
 Ferns-Petals-Sales-Analysis/
@@ -180,7 +178,7 @@ Ferns-Petals-Sales-Analysis/
 
 ---
 
-# 🚀 Skills Demonstrated
+🚀 Skills Demonstrated
 
 - Data Cleaning
 - Data Analysis
@@ -195,7 +193,7 @@ Ferns-Petals-Sales-Analysis/
 
 ---
 
-# 📚 Learning Outcomes
+📚 Learning Outcomes
 
 Through this project, the following concepts were applied:
 
@@ -211,7 +209,7 @@ Through this project, the following concepts were applied:
 
 ---
 
-# 💡 Business Value
+💡 Business Value
 
 This dashboard helps businesses:
 
@@ -225,7 +223,7 @@ This dashboard helps businesses:
 
 ---
 
-# ⭐ Future Improvements
+⭐ Future Improvements
 
 - Power Query Integration
 - Power Pivot Data Model
@@ -238,7 +236,7 @@ This dashboard helps businesses:
 
 ---
 
-# 📌 Project Highlights
+📌 Project Highlights
 
 - ✅ Interactive Excel Dashboard
 - ✅ Sales KPI Tracking
@@ -252,7 +250,7 @@ This dashboard helps businesses:
 
 ---
 
-# 📷 Dashboard Components
+📷 Dashboard Components
 
 | Section | Description |
 |----------|-------------|
@@ -269,13 +267,13 @@ This dashboard helps businesses:
 
 ---
 
-# 🏆 Project Outcome
+🏆 Project Outcome
 
 This project demonstrates how Microsoft Excel can be effectively used as a Business Intelligence (BI) tool for creating professional dashboards. It showcases practical skills in data cleaning, KPI development, sales analytics, and interactive reporting, making it suitable for business analysts, data analysts, and aspiring BI professionals. :contentReference[oaicite:1]{index=1}
 
 ---
 
-# 🤝 Contributing
+🤝 Contributing
 
 Contributions are welcome!
 
@@ -290,22 +288,21 @@ If you would like to improve this project:
 
 ---
 
-# 📄 License
+📄 License
 
 This project is licensed under the **MIT License**.
 
 ---
 
-## 👨‍💻 Author
+👨‍💻 Author
 
 **Swanoop Anjan Behera**
 
 - GitHub: https://github.com/swanoop10082001
-- LinkedIn: https://linkedin.com/in/your-profile
 
 ---
 
-## ⭐ Support
+⭐ Support
 
 If you found this project helpful, please consider giving it a ⭐ on GitHub. It helps others discover the project and motivates future improvements.
 
