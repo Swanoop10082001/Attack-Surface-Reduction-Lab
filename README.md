@@ -1,163 +1,313 @@
-# Attack Surface Reduction Lab
+````markdown
+# 🌸 Ferns & Petals Sales Analysis Dashboard
 
-A cybersecurity lab project demonstrating Linux server hardening and attack surface reduction using Ubuntu Server, Nmap, Nessus, pfSense, auditd, and Wireshark.
-
----
-
-## Overview
-
-This project focuses on minimizing the attack surface of an Ubuntu Linux server by:
-
-- Identifying exposed services
-- Disabling unnecessary services
-- Hardening SSH
-- Configuring firewall rules
-- Monitoring security events
-- Comparing security scans before and after hardening
+An interactive **Sales Analysis Dashboard** built in **Microsoft Excel** to analyze sales performance, customer purchasing behavior, and revenue trends for **Ferns & Petals (FNP)**. This dashboard transforms raw sales data into meaningful business insights through interactive visualizations, KPI cards, Pivot Tables, Pivot Charts, and Slicers. It enables decision-makers to monitor key performance indicators, identify top-performing products, analyze customer trends, and make data-driven business decisions. :contentReference[oaicite:0]{index=0}
 
 ---
 
-## Objectives
+## 📌 Project Overview
 
-- Reduce exposed services
-- Secure SSH configuration
-- Configure firewall rules
-- Validate security improvements
-- Monitor blocked traffic
-- Analyze network traffic changes
+The objective of this project is to perform end-to-end sales analysis using Microsoft Excel and build an interactive dashboard that helps businesses understand:
 
----
+- Sales performance
+- Revenue growth
+- Customer purchasing patterns
+- Product performance
+- Delivery efficiency
+- Occasion-based sales
+- Monthly trends
+- Geographic sales distribution
 
-## Tools Used
-
-| Tool | Purpose |
-|------|---------|
-| Ubuntu Server | Target system |
-| Nmap | Port scanning |
-| Nessus | Vulnerability scanning |
-| pfSense | Firewall |
-| auditd | Linux auditing |
-| Wireshark | Packet analysis |
+The dashboard is fully interactive and allows users to filter reports using **Month**, **Order Date**, and **Delivery Date** slicers.
 
 ---
 
-## Lab Workflow
+# 📸 Dashboard Preview
 
-1. Deploy Ubuntu Server
-2. Perform initial Nmap scan
-3. Identify unnecessary services
-4. Disable unused services
-5. Harden SSH
-6. Configure pfSense firewall
-7. Perform post-hardening scan
-8. Run Nessus vulnerability assessment
-9. Enable auditd logging
-10. Capture and compare network traffic
+![Sales Dashboard](Final%20Dashboard%20SS.png)
 
 ---
 
-## SSH Hardening
+# 📊 Dashboard KPIs
 
-- Changed default SSH port
-- Disabled root login
-- Disabled password authentication
-- Limited login attempts
-- Enabled SSH key authentication
+| KPI | Value |
+|------|------:|
+| Total Orders | 160 |
+| Total Revenue | ₹4,89,619 |
+| Average Order Spending | ₹3,060.12 |
+| Average Delivery Time | 5.19 Days |
 
-Example:
+---
 
-```text
-Port 2222
-PermitRootLogin no
-PasswordAuthentication no
-MaxAuthTries 3
+# 📈 Dashboard Features
+
+### 📦 Product Revenue Analysis
+- Displays the Top 5 products based on generated revenue.
+- Helps identify best-selling products.
+
+---
+
+### 🛍 Category-wise Revenue
+- Revenue comparison across product categories.
+- Categories include:
+  - Cake
+  - Colors
+  - Mugs
+  - Plants
+  - Raksha Bandhan
+  - Soft Toys
+  - Sweets
+
+---
+
+### 🌆 Top Cities Analysis
+Shows the Top 10 cities with the highest number of customer orders.
+
+---
+
+### 📅 Revenue by Month
+Monthly revenue trend analysis for identifying sales growth.
+
+---
+
+### 🎉 Revenue by Occasion
+Compare revenue generated during different occasions such as:
+
+- Valentine's Day
+- Anniversary
+- Birthday
+- Holi
+- All Occasions
+
+---
+
+### ⏰ Revenue by Hours
+Analyzes customer purchasing patterns based on order time.
+
+Useful for:
+- Marketing campaigns
+- Staff planning
+- Peak sales identification
+
+---
+
+### 🎛 Interactive Filters
+
+The dashboard contains interactive filters including:
+
+- Month Filter
+- Order Date Timeline
+- Delivery Date Timeline
+
+These allow users to dynamically explore the data.
+
+---
+
+# 📊 Business Questions Answered
+
+- Which products generate the highest revenue?
+- Which category performs the best?
+- Which cities have the highest number of orders?
+- What is the average customer spending?
+- Which occasion generates maximum revenue?
+- Which month has the highest sales?
+- During which hours do customers place the most orders?
+- What is the average delivery time?
+
+---
+
+# 📈 Key Insights
+
+✔ Highest revenue generating products
+
+✔ Best performing product categories
+
+✔ City-wise sales performance
+
+✔ Occasion-based customer purchasing trends
+
+✔ Revenue distribution by month
+
+✔ Customer spending behavior
+
+✔ Average delivery efficiency
+
+✔ Peak order timings
+
+---
+
+# 🛠 Tools & Technologies
+
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Slicers
+- Timeline Filters
+- Conditional Formatting
+- Excel Formulas
+- Data Cleaning
+- Data Visualization
+- Business Intelligence
+
+---
+
+# 📂 Dataset
+
+The dataset contains sales information including:
+
+- Order ID
+- Product Name
+- Category
+- Revenue
+- Order Date
+- Delivery Date
+- City
+- Occasion
+- Customer Spending
+
+---
+
+# 📂 Repository Structure
+
+```
+Ferns-Petals-Sales-Analysis/
+│
+├── 📄 Ferns N Petals Sales Analysis.xlsx
+├── 🖼 Final Dashboard SS.png
+├── 📄 README.md
+└── 📄 LICENSE
 ```
 
 ---
 
-## Firewall Rules
+# 🚀 Skills Demonstrated
 
-| Service | Port | Action |
-|----------|------|--------|
-| SSH | 2222 | Allow |
-| HTTPS | 443 | Allow |
-| All Others | Any | Deny |
-
----
-
-## Attack Surface Comparison
-
-| Feature | Before | After |
-|----------|--------|-------|
-| Open Ports | 22, 80, 111, 631 | 2222, 443 |
-| Root Login | Enabled | Disabled |
-| Firewall | Default | Hardened |
-| Password Login | Enabled | Disabled |
-| Audit Logging | Disabled | Enabled |
+- Data Cleaning
+- Data Analysis
+- Business Intelligence
+- Dashboard Design
+- KPI Reporting
+- Interactive Reporting
+- Sales Analytics
+- Excel Dashboard Development
+- Pivot Table Analysis
+- Data Visualization
 
 ---
 
-## Results
+# 📚 Learning Outcomes
 
-- Reduced exposed services
-- Hardened SSH access
-- Implemented restrictive firewall policy
-- Logged authentication events with auditd
-- Reduced network traffic exposure
-- Improved vulnerability assessment results
+Through this project, the following concepts were applied:
 
----
-
-## Skills Demonstrated
-
-- Linux Administration
-- Linux Hardening
-- Network Security
-- Firewall Configuration
-- Vulnerability Assessment
-- Security Monitoring
-- Packet Analysis
-- Security Auditing
+- Transforming raw business data into dashboards
+- Creating dynamic reports using Pivot Tables
+- Designing KPI cards
+- Interactive dashboard development
+- Business performance analysis
+- Sales trend analysis
+- Customer behavior analysis
+- Revenue analysis
+- Decision support reporting
 
 ---
 
-## Screenshots
+# 💡 Business Value
 
-### Nmap Scan (Before)
+This dashboard helps businesses:
 
-![Before](screenshots/nmap_before.png)
-
-### Nmap Scan (After)
-
-![After](screenshots/nmap_after.png)
-
-### Nessus Scan
-
-![Nessus](screenshots/nessus_after.png)
-
-### pfSense Rules
-
-![Firewall](screenshots/pfsense_rules.png)
-
-### Wireshark Capture
-
-![Wireshark](screenshots/wireshark_after.png)
+- Monitor overall sales performance
+- Track revenue growth
+- Identify top-selling products
+- Improve marketing strategies
+- Analyze customer purchasing behavior
+- Optimize delivery performance
+- Make data-driven decisions
 
 ---
 
-## Future Improvements
+# ⭐ Future Improvements
 
-- Fail2Ban integration
-- AppArmor policy enforcement
-- SELinux implementation
-- Automated compliance scanning
-- CIS Benchmark validation
-- SIEM integration
+- Power Query Integration
+- Power Pivot Data Model
+- Forecasting using Excel
+- Profit Analysis
+- Customer Segmentation
+- Regional Sales Map
+- Dynamic KPI Comparison
+- Automated Data Refresh
 
 ---
 
-## Author
+# 📌 Project Highlights
 
-Your Name
+- ✅ Interactive Excel Dashboard
+- ✅ Sales KPI Tracking
+- ✅ Revenue Analysis
+- ✅ Product Performance Analysis
+- ✅ City-wise Sales Analysis
+- ✅ Occasion-wise Revenue
+- ✅ Monthly Trend Analysis
+- ✅ Interactive Filters
+- ✅ Business Intelligence Reporting
 
-Cybersecurity Portfolio Project
+---
+
+# 📷 Dashboard Components
+
+| Section | Description |
+|----------|-------------|
+| KPI Cards | Overall business performance |
+| Top Products | Highest revenue-generating products |
+| Category Revenue | Revenue comparison by category |
+| Revenue by Month | Monthly sales trend |
+| Revenue by Occasion | Occasion-based revenue |
+| Top Cities | Cities with maximum orders |
+| Revenue by Hours | Hourly purchasing behavior |
+| Month Filter | Dynamic month selection |
+| Order Timeline | Order date filtering |
+| Delivery Timeline | Delivery date filtering |
+
+---
+
+# 🏆 Project Outcome
+
+This project demonstrates how Microsoft Excel can be effectively used as a Business Intelligence (BI) tool for creating professional dashboards. It showcases practical skills in data cleaning, KPI development, sales analytics, and interactive reporting, making it suitable for business analysts, data analysts, and aspiring BI professionals. :contentReference[oaicite:1]{index=1}
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+If you would like to improve this project:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Commit your changes.
+5. Push to your branch.
+6. Submit a Pull Request.
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+**Swanoop Anjan Behera**
+
+- GitHub: https://github.com/your-username
+- LinkedIn: https://linkedin.com/in/your-profile
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub. It helps others discover the project and motivates future improvements.
+
+**Happy Learning! 🚀**
+````
