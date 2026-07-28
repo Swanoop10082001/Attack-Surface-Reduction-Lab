@@ -300,7 +300,7 @@ This project is licensed under the **MIT License**.
 
 **Swanoop Anjan Behera**
 
-- GitHub: https://github.com/your-username
+- GitHub: https://github.com/swanoop10082001
 - LinkedIn: https://linkedin.com/in/your-profile
 
 ---
